@@ -65,7 +65,7 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	}
 	/*Header Bottom*/
 	.header-bottom, .header-sticky.sticky {
-		background: transparent;
+		/* background: transparent; */
 	}
 	/*Mobile Menu*/
 	.megamenu-static-holder {
@@ -399,6 +399,17 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	    border-bottom: 0;        
 	}
 }
+@media (max-width: 991px){
+	.header-bottom, .header-sticky.sticky {
+		background-color: rgb(28, 28, 80);
+		padding:25px;
+		padding-right: 6rem;
+		height:5.2rem;
+		display: flex;
+		justify-content:flex-end; 
+		
+	}
+}
 /* Small Mobile Device :480px. */
 @media (min-width: 480px) and (max-width: 575px) {
 	/*Home Version One Area*/
@@ -420,7 +431,7 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		float: unset;
 	}
 	.header-middle-right {
-		display: flex;
+		 display: flex;
 		justify-content: flex-start;
 		padding-top: 30px;
 	}
@@ -446,7 +457,9 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	}
 	/*Header Bottom*/
 	.header-bottom, .header-sticky.sticky {
-		background: transparent;
+		/* background: transparent; */
+		padding:25px;
+		padding-right: 8rem;
 	}
 	/*Mobile Menu*/
 	.megamenu-static-holder {
@@ -634,7 +647,7 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		padding: 0 5px;
 	}
 	.minicart {
-		left: -59px;
+		left: -130px;
 	}
 	/*Header Middle*/
 	.logo {
@@ -674,7 +687,7 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	}
 	/*Header Bottom*/
 	.header-bottom, .header-sticky.sticky {
-		background: transparent;
+		/* background: transparent; */
 	}
 	/*Mobile Menu*/
 	.megamenu-static-holder {
